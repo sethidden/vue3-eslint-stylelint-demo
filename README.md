@@ -1,5 +1,15 @@
 # vue3-eslint-stylelint-demo
 
+Vue 3 with:
+* ESLint
+* eslint-plugin-vue (find common mistakes in .vue files)
+* eslint-plugin-prettier (formatting rules)
+* stylelint (lint `<style>` block from .vue files)
+
+To see all of the above in action install ESLint and Stylelint extensions (type `@recommended` in extension search menu in VS Code), then open src/HelloWorld.vue. That file intentionally contains linting errors that check if all of these linting plugins work. Stylelint needs a separate extension - it's not integrated with ESLint.
+
+---
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

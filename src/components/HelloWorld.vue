@@ -3,7 +3,7 @@ defineProps<{
   msg: String
 }>()
 
-// Intentional linting error left over to see if prettier linting works correctly
+// Intentional linting warning left over to see if prettier linting works correctly
 
 
 
