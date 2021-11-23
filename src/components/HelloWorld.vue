@@ -4,6 +4,11 @@ defineProps<{
 }>();
 
 // Intentional linting warning left over to see if prettier linting works correctly
+
+
+
+
+
 </script>
 
 <template>
