@@ -1,6 +1,6 @@
 # vue3-eslint-stylelint-demo
 
-**This repo intentionally contains linting errors in src/HelloWorld.vue so you know everything is working. You won't be able to git commit because the Husky pre-commit linting action won't let you - unless you fix the errors yourself of course. Run `npm run lint` to see the errors**
+**This repo intentionally contains linting errors in src/components/HelloWorld.vue so you know everything is working. You won't be able to git commit because the Husky pre-commit linting action won't let you - unless you fix the errors yourself of course. Run `npm run lint` to see the errors**
 
 Vue 3 with:
 * ESLint
@@ -9,7 +9,7 @@ Vue 3 with:
 * stylelint (lint `<style>` block from .vue files)
 * husky (run linting before comitting and prevent the commit if it contains errors)
 
-To see all of the above in action install ESLint and Stylelint extensions (type `@recommended` in extension search menu in VS Code), then open src/HelloWorld.vue. That file intentionally contains linting errors that check if all of these linting plugins work. Stylelint needs a separate extension - it's not integrated with ESLint.
+To see all of the above in action install ESLint and Stylelint extensions (type `@recommended` in extension search menu in VS Code), then open src/components/HelloWorld.vue. That file intentionally contains linting errors that check if all of these linting plugins work. Stylelint needs a separate extension - it's not integrated with ESLint.
 
 ---
 
