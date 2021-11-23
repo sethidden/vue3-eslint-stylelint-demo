@@ -7,7 +7,7 @@ Vue 3 with:
 * eslint-plugin-vue (find common mistakes in .vue files & make ESLint recognize .vue files)
 * eslint-plugin-prettier (formatting rules)
 * stylelint (lint `<style>` block from .vue files)
-* husky (run linting before comitting and prevent the commit if it contains errors)
+* husky (run linting before comitting and prevent the commit if its code contains linting errors)
 
 To see all of the above in action install ESLint and Stylelint extensions (type `@recommended` in extension search menu in VS Code), then open src/components/HelloWorld.vue. That file intentionally contains linting errors that check if all of these linting plugins work. Stylelint needs a separate extension - it's not integrated with ESLint.
 
