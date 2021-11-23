@@ -7,7 +7,7 @@
     "preserve": "vite build",
     "serve": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint --ext .ts,.vue src"
+    "lint": "eslint --ext .ts,.vue src && stylelint"
   },
   "dependencies": {
     "vue": "^3.2.14"
@@ -18,6 +18,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.1.1",
     "prettier": "^2.4.1",
+    "stylelint": "^14.1.0",
+    "stylelint-config-recommended-vue": "^1.0.0",
     "typescript": "~4.3.5",
     "vite": "^2.6.3",
     "vue-tsc": "^0.3.0"

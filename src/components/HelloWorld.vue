@@ -3,6 +3,7 @@ defineProps<{
   msg: String
 }>()
 
+// Intentional linting error left over to see if prettier linting works correctly
 
 
 
@@ -11,7 +12,7 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <!-- Intentional linting error left over to see if linting works correctly -->
+    <!-- Intentional linting error left over to see if vue linting works correctly -->
     <div v-for="(item, index) in [1,2,3]" />
     <h3>
       You’ve successfully created a project with
@@ -32,6 +33,10 @@ h3 {
   font-size: 1.2rem;
 }
 
+/* intentional linting error to see if stylelint is working correctly */
+.greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings, .greetings {
+
+}
 .greetings h1,
 .greetings h3 {
   text-align: center;
