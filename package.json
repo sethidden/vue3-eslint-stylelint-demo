@@ -7,7 +7,7 @@
     "preserve": "vite build",
     "serve": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint --ext .ts,.vue src && stylelint"
+    "lint": "eslint --ext .ts,.vue src && stylelint **/*.vue"
   },
   "dependencies": {
     "vue": "^3.2.14"
