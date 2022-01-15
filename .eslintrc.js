@@ -5,6 +5,14 @@ module.exports = {
   parser: "vue-eslint-parser",
   parserOptions: {
     parser: "@typescript-eslint/parser",
+    ecmaFeatures: {
+      jsx: true,
+    },
+    vueFeatures: {
+      filter: true,
+      interpolationAsNonHTML: true,
+      jsx: true,
+    },
   },
   plugins: ["@typescript-eslint", "prettier"],
   extends: [
