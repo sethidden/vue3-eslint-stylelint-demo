@@ -1,17 +1,14 @@
-<script setup lang="ts">
+<script setup lang="tsx">
+import { defineAsyncComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import Welcome from "./components/Welcome.vue";
+import svgIcon from './assets/logo.svg'
+const Logo = () => (<img class="logo" src={svgIcon} />)
 </script>
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="./assets/logo.svg"
-      width="125"
-      height="125"
-    />
+    <Logo />
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -41,6 +38,8 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  width: 125px;
+  height: 125px;
 }
 
 a,
