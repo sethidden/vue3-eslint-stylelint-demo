@@ -38,6 +38,7 @@ h3 {
 /* intentional linting error to see if stylelint is working correctly */
 /* in this case it's the "selector-type-no-unknown" rule */
 
+
 div::v-this-doesnt-exist {
   width: 5px;
 }
