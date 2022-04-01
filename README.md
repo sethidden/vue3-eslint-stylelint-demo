@@ -6,10 +6,10 @@ Vue 3 with:
 * ESLint
 * eslint-plugin-vue (find common mistakes in .vue files & make ESLint recognize .vue files)
 * eslint-plugin-prettier (formatting rules)
-* stylelint (lint `<style>` block from .vue files)
+* stylelint (lint `<style>` block from .vue files) - Stylelint is a separate program, not an ESLint plugin. To get Stylelint warnings in the IDE, download the Stylelint extension
 * husky & lint-staged, which prevent your git commit if code you staged (with `git add`) has linting errors - they'll only let you through to the commit message prompt if you fix the errors
 
-To see all of the above in action install ESLint and Stylelint extensions (type `@recommended` in extension search menu in VS Code), then open `src/components/HelloWorld.vue`. That file intentionally contains linting errors that check if all of these linting plugins work. Stylelint needs a separate extension - it's not integrated with ESLint.
+To see all of the above in action install ESLint and Stylelint extensions (type `@recommended` in extension search menu in VS Code), then open `src/components/HelloWorld.vue`. That file intentionally contains linting errors that check if all of these linting plugins work.
 
 ---
 
