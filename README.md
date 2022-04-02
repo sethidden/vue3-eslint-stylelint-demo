@@ -1,6 +1,6 @@
 # vue3-eslint-stylelint-demo
 
-**This repo intentionally contains linting errors in src/components/HelloWorld.vue so you know everything is working. You won't be able to git commit because the Husky pre-commit linting action won't let you - unless you fix the errors yourself of course. Run `npm run lint` to see the errors**
+**This repo intentionally contains `eslint` and `stylelint` linting errors in `src/components/HelloWorld.vue` so you know everything is working. You won't be able to `git commit` (only if you edit that file though) because the pre-commit linting action won't let you - until you fix the errors. Run `npm run lint` to see the errors**
 
 Vue 3 with:
 * ESLint
