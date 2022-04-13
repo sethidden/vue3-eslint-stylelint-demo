@@ -1,0 +1,8 @@
+{
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "vue" // necessary for stylelint diagnostics in .vue <style> tag
+    ]
+}
